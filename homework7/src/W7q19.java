@@ -10,9 +10,9 @@ public class W7q19 {
         System.out.println("Enter Your Number: ");
         x=s.nextInt();
 
-        if (x>=0){
+        if (x>0){
             System.out.println("Number is Positive.");
-        }else if(x<=0){
+        }else if(x<0){
             System.out.println("Number is Negative.");
         }
         else {

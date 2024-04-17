@@ -12,31 +12,14 @@ public class W7q11 {
         data=s.next();
         data=data.toUpperCase();
 
-        if (data.equals("A")){
-            System.out.println("Agra");
-        }
-        else if (data.equals("B"))
-        {
-            System.out.println("Berlin");
-        }
-        else if (data.equals("C"))
-        {
-            System.out.println("Cairo");
-        }
-        else if (data.equals("D"))
-        {
-            System.out.println("Dallas");
-        }
-        else if (data.equals("E"))
-        {
-            System.out.println("EE");
-        }
-        else if (data.equals("F"))
-        {
-            System.out.println("Freetown");
-        }
-        else {
-            System.out.println("Invalid Input");
+        switch (data) {
+            case "A": { System.out.println("Agra");}
+            case "B" :{ System.out.println("Berlin");}
+            case "C" :{ System.out.println("Cairo");}
+            case "D" :{ System.out.println("Dallas");}
+            case "E" :{ System.out.println("EE");}
+            case "F" :{ System.out.println("Freetown");}
+            default :{ System.out.println("Invalid Input");}
         }
     }
 

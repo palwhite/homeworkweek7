@@ -10,7 +10,7 @@ public class W7q4 {
         Scanner s=new Scanner(System.in);
         name=s.nextLine();
 
-        if (name == "Nirali"){
+        if (name.equals("Nirali")){
             System.out.println("Group 1");
         }
         else {

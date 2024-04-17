@@ -16,7 +16,7 @@ public class W7q26 {
 
         for (int i=0; i<data.length(); i++){
             onec=data.charAt(i);
-            rstr=onec+rstr;
+            rstr=onec + rstr;
         }
         System.out.println(rstr);
 
